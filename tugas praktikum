@@ -1,0 +1,38 @@
+package Tugas;
+
+import java.util.Scanner;
+
+public class alpro1 {
+	public static void main(String[] args) {
+		int angka;
+		
+		Scanner scan = new Scanner(System.in);
+		
+		System.out.print("Masukkan angka antara 1 sampai 10 = ");
+		angka = scan.nextInt();
+		
+		if(angka == 1) {
+			System.out.println("I");
+		} else if (angka == 2) {
+			System.out.println("II");
+		} else if (angka == 3) {
+			System.out.println("III");
+		} else if (angka == 4) {
+			System.out.println("IV");
+		} else if (angka == 5) {
+			System.out.println("V");
+		} else if (angka == 6) {
+			System.out.println("VI");
+		} else if (angka == 7) {
+			System.out.println("VII");
+		} else if (angka == 8) {
+			System.out.println("VIII");
+		} else if (angka == 9) {
+			System.out.println("IX");
+		} else if (angka == 10) {
+			System.out.println("X");
+		} else {
+			System.out.println("Input tidak valid");
+		}
+	}
+}
